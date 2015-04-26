@@ -1,0 +1,7 @@
+;; -*- scheme -*-
+
+((synopsis "Antiscam for Spiffy")
+ (author "Mario Domenech Goulart")
+ (category web)
+ (license "BSD")
+ (depends spiffy))

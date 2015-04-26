@@ -1,0 +1,9 @@
+;; -*- scheme -*-
+
+(compile -d1 -O3 -J -s spiffy-antiscam.scm)
+(compile -d1 -O3 -s spiffy-antiscam.import.scm)
+
+(install-extension
+ 'spiffy-antiscam
+ '("spiffy-antiscam.so" "spiffy-antiscam.import.so")
+ '((version "0.0.1")))
